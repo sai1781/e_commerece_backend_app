@@ -1,6 +1,7 @@
 services:
-  - name: backend
-  type:mobile
+   - type: mobile
+
+  name: backend
     buildCommand: npm install
     startCommand: npm start
     env: .env
