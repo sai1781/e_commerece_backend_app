@@ -1,3 +1,4 @@
+services:
   - name: backend
     buildCommand: npm install
     startCommand: npm start
