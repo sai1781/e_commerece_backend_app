@@ -1,5 +1,5 @@
 services:
-   - type: mobile
+   - type: web
 
   name: backend
     buildCommand: npm install
