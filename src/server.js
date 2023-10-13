@@ -6,7 +6,6 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 
-const {mongoConnect} = require('./services/mongo');
 const jwt = require('jsonwebtoken');
 const app = express();
 app.use(bodyParser.json()); // Add this line for JSON data parsing
