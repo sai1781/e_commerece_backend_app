@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.json()); // Add this line for JSON data parsing
 const http = require('http');
 
-const port = 8000;
+const port = 8080;
 const cors = require('cors');
 const corsOptions = {
   origin: 'http://196.162.1.21:8080', // Replace with your React Native app's URL
