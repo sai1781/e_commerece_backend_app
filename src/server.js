@@ -14,7 +14,7 @@ const http = require('http');
 const port = 8000;
 const cors = require('cors');
 const corsOptions = {
-  origin: 'http://10.0.2.2:8000', // Replace with your React Native app's URL
+  origin: 'http://196.162.1.21:8080', // Replace with your React Native app's URL
   optionsSuccessStatus: 200, // Some legacy browsers (IE11) choke on 204
 };
 
